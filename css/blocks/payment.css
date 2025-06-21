@@ -1,0 +1,21 @@
+.payment {
+  margin: 0 0 100px 0;
+}
+
+.payment__title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 36px;
+  text-align: center;
+  margin: 0 0 40px 0;
+}
+
+.payment__items-list {
+  display: grid;
+  gap: 40px;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  grid-template-columns: repeat( 4, 1fr);
+  justify-content: space-between;
+}
