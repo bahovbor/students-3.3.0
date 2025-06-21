@@ -1,0 +1,41 @@
+.placement {
+  margin: 0 0 100px 0;
+}
+
+.placement__title {
+  padding: 0 360px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 36px;
+  text-align: center;
+  margin: 0 0 40px 0;
+}
+
+.placement__items-list {
+  list-style-type: none;
+  display: grid;
+  gap: 32px;
+  padding: 0;
+  margin: 0;
+  grid-template-columns: repeat( 4, 1fr);
+  justify-content: space-between;
+}
+
+.placement .item-card {
+  text-align: left;
+  justify-items: start;
+}
+
+.placement .item-card__wrapper-image {
+  background-color: #F4F6FA;
+}
+
+.placement .item-card__image {
+  height: 326px;
+}
+
+.placement .item-card__title {
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0 0 8px 0;
+}
