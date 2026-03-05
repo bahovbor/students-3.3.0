@@ -30,6 +30,9 @@
 }
 
 .btn--fourth {
-  color: #1E222E;
-  background-color: #EDEEEF;
+  color: #FFFFFF;
+  background-color: #1E222E;
+  padding: 12px 20px;
+  font-size: 13px;
+  line-height: 16px;
 }

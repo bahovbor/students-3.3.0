@@ -1,5 +1,5 @@
 .footer {
-  padding: 0;
+  padding: 40px 00;
 }
 
 .footer__wrapper {
@@ -14,6 +14,12 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
+  align-items: start;
+}
+
+.footer__logo-link {
+  margin: 0;
+  padding: 0;
 }
 
 .footer__phone-text {
@@ -25,6 +31,7 @@
   font-size: 13px;
   line-height: 16px;
   color: #6A6E80;
+  align-items: start;
 
 }
 
@@ -52,11 +59,13 @@
   font-size: 13px;
   line-height: 16px;
   color: #6A6E80;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: start;
 }
 
 .footer__geo-link {
-  display: block;
-  margin: 8px 0 0;
   color: #476BF0;
 }
 
@@ -82,6 +91,7 @@
   color: #6A6E80;
   font-size: 13px;
   line-height: 16px;
+  align-items: start;
 }
 
 .footer__personal {
@@ -100,8 +110,25 @@
   margin: 0 0 12px;
 }
 
+.footer__copyright-text {
+  display: block;
+}
+
 .footer__info {
   color: rgba(106, 110, 128, 0.40);
   font-size: 10px;
   line-height: 12px;
+  margin: 0 0 20px;
+}
+
+.footer__language {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  color: #6A6E80;
+  background-color: #FFFFFF;
+  font-size: 13px;
+  line-height: 16px;
 }
